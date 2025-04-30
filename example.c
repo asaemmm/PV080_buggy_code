@@ -8,7 +8,7 @@
  * 4. Print the IV and the plaintext
  */
 int main(void) {
-    uint8_t message[48];
+    uint8_t message[64];
     uint8_t iv[16];
     uint8_t ciphertext[32];
     uint8_t plaintext[32];
